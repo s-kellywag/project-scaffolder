@@ -1,0 +1,9 @@
+WBS Code,Item ID,Prerequisites,Prefix,Feature/Area,Title,Description,Notes,Assignee,Effort (Days),Priority,Component,Milestone,Category,Program
+1,,,,Beacon,Beacon — Unified Notification Controls,Umbrella item tracking the Beacon project.,,,,1,notifications-service,,Umbrella,Trust & Controls
+1.1,,,Beacon,Beacon,Unified preference center UI,This item tracks the user-facing preference center on mobile and web.,,,25,1,mobile-client,Build Complete,Feature (New),Trust & Controls
+1.2,,,Beacon,Beacon,Server-authoritative preference storage,This item tracks the per-user server-authoritative preference store.,Blocked by NW-4102,,30,1,preferences-store,Build Complete,Feature (New),Trust & Controls
+1.2.1,,1.2,Beacon,Beacon,Cross-device sync,This sub-item tracks conflict resolution for preferences across devices.,Folded under storage,,15,2,preferences-store,Build Complete,Feature (New),Trust & Controls
+1.3,,,Beacon,Beacon,Quiet Hours (scheduled DND),This item tracks scheduled do-not-disturb per design v2.,,,15,1,mobile-client,Build Complete,Feature (New),Trust & Controls
+Milestone,,,,Beacon,Milestone: GA (November cut),Achievement checkpoint for general availability.,,,,1,,GA,Milestone,Trust & Controls
+Skip,,,,,,,,,,,,,,
+1.4,,,Beacon,Beacon,Digest batching,This item tracks hourly batching of low-priority notifications. Deferred — over capacity for v1.,Candidate; deferred,,20,3,notifications-service,,Feature (New),Trust & Controls

@@ -1,0 +1,25 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# Python (if adapters are added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (if adapters are added later)
+node_modules/
+
+# Generated scratch data
+data/*
+!data/.gitkeep
