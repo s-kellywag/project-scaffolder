@@ -56,7 +56,6 @@ See [`examples/`](examples/) for a fully fictional end-to-end run: a sample inta
 ```
 project-scaffolder/
 ├── README.md
-├── SETUP.md                        # publishing this repo to GitHub
 ├── EVAL.md                         # eval rubric: grading scaffold output good / acceptable / wrong
 ├── LICENSE                         # MIT
 ├── skill/
@@ -67,10 +66,6 @@ project-scaffolder/
 └── templates/
     └── work-breakdown.csv          # the WBS import template shape
 ```
-
-## Publishing this repo
-
-This repo is staged locally with a clean initial commit and **no remote**. To publish it, see [`SETUP.md`](SETUP.md).
 
 ## License
 
